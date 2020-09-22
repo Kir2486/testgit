@@ -1,0 +1,38 @@
+Темы Oracle
+
+Партиционирование
+
+
+
+PL/SQL
+	pl sql developer?
+	типы
+	курсоры
+	коллекции - записи
+	Исключения
+		p_log_error
+	Пакеты
+	функции и параметры
+	перегрузка
+
+	RETURN SQL%ROWCOUNT - выведет обработанные строки (запроса выше )
+
+
+Представления и работа с ними
+
+Оптимизация запросов
+
+XML
+
+Устройство оракл
+
+Общее
+	NVL
+	where current of 
+	for update of 
+	alter index rebuild
+
+Запрос на нахождение "невалидных индексов"
+	Select index_name from dba_indexes where status = 'UNUSABLE';
+
+	
